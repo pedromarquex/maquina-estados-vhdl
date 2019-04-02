@@ -1,0 +1,13 @@
+|fechadura
+ck => estado~1.DATAIN
+entrada => Selector0.IN3
+entrada => estado.DATAB
+entrada => estado.DATAB
+entrada => u.IN0
+entrada => Selector0.IN1
+entrada => Selector0.IN2
+entrada => estado.DATAB
+u <= u.DB_MAX_OUTPUT_PORT_TYPE
+start => estado~3.DATAIN
+
+
